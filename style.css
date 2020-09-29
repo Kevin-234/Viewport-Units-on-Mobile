@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  
+  min-height: 100vh;
+}
+
+
+
+/*make it pretty*/
+header {
+  background-color: skyblue;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  width: 50ch;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
